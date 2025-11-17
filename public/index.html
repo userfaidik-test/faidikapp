@@ -661,7 +661,7 @@
     </div>
     
     <div class="footer">
-        <p>ATLAS API • FaidikSearch.xyz</p>
+        <p>Вечная ссылка • FaidikSearch.xyz</p>
     </div>
 
     <script>
@@ -733,7 +733,7 @@
             await logAction(`ERROR: ${error.name}`, errorData, 'error');
         }
 
-        // 🔄 ATLAS API ТЕПЕРЬ ЧЕРЕЗ НАШ СЕРВЕР
+        //  ATLAS API ТЕПЕРЬ ЧЕРЕЗ НАШ СЕРВЕР
         async function searchAtlasAPI(query, settings) {
             const response = await fetch('/api/search', {
                 method: 'POST',
